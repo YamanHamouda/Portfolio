@@ -145,3 +145,54 @@ h2{
     max-width: 60%;
     color: black;
 }
+
+/* skills */
+
+#skills {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#skills h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #04cae4;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+#skills li {
+  width: 100px;
+  height: 100px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#skills li:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  background-color: #eaf9ff;
+}
+
+#skills img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+#skills li:hover img {
+  transform: scale(1.1);
+}
